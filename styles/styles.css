@@ -1,0 +1,248 @@
+body {
+	font-family: "Montserrat", sans-serif;
+	background: #f5f7fa;
+}
+
+/* Main styles */
+.main {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+	width: 1170px;
+	height: 1400px;
+	/* background: #f5f7fa; */
+	margin: auto;
+	padding: 40px;
+	transform: scale(0.9);
+}
+
+/* Main-content styles */
+.main-content {
+	background: white;
+	width: 800px;
+	box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* About styles */
+.about {
+	margin-top: 90px;
+	margin-left: 90px;
+}
+.position {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 17px;
+	color: #000000;
+	margin-bottom: 20px;
+}
+.name {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 45px;
+	line-height: 55px;
+	color: #000000;
+	margin-bottom: 25px;
+}
+.description {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+	color: #595959;
+	width: 400px;
+	/* margin-bottom: 50px; */
+}
+
+/* Projects styles */
+.projects {
+	margin-left: 90px;
+	margin-top: 50px;
+}
+.projects-title {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 27px;
+	color: #000000;
+	margin-bottom: 10px;
+}
+.project-list {
+	padding: 0;
+	margin-left: 17px;
+}
+.projects-item {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 24px;
+	color: #000000;
+}
+.project,
+.project-link {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+	color: #595959;
+}
+.project-link {
+	margin-left: 10px;
+}
+.brackets {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 24px;
+	color: #000000;
+}
+
+/* Work experience style */
+.work-experience {
+	margin-left: 90px;
+	margin-top: 50px;
+}
+.work-experience-title {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 27px;
+	color: #000000;
+	margin-bottom: 15px;
+}
+.work {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 20px;
+	color: #000000;
+	margin-top: 15px;
+	margin-bottom: auto;
+}
+.company {
+	color: #fb6d3a;
+}
+.dates {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 15px;
+	color: #a8a8a8;
+	margin-bottom: 10;
+}
+.line {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 15px;
+	color: #000000;
+}
+.company-experience {
+	padding: 0;
+	margin-left: 20px;
+	margin-bottom: 15px;
+}
+.experience-text {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+	color: #595959;
+	width: 525px;
+}
+
+/* Education style */
+.education {
+	margin-left: 90px;
+	margin-top: 50px;
+}
+.education-title {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 27px;
+	color: #000000;
+}
+.height-shcool {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 20px;
+	color: #fb6d3a;
+}
+.speciality {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 17px;
+	color: #000000;
+	margin-bottom: auto;
+}
+.dates {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 15px;
+	color: #a8a8a8;
+	margin-bottom: 10;
+}
+.line {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 15px;
+	color: #000000;
+}
+
+/* Sidebar styles */
+.sidebar {
+	background: #1e2939;
+	padding-top: 40px;
+	width: 370px;
+}
+.photo {
+	width: 370px;
+}
+.sidebar-title {
+	color: white;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 27px;
+}
+.contacts,
+.tech-skills,
+.soft-skills {
+	margin-left: 40px;
+	margin-top: 50px;
+}
+.contact-type {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 24px;
+	color: #ffffff;
+}
+.contact-link {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+	color: #ffffff;
+	opacity: 0.5;
+	margin-left: 10px;
+}
+.skill-list {
+	padding-left: 0;
+	margin-left: 19px;
+}
+.list-item {
+	color: #fb6d3a;
+}
+.skill-name {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+	color: #ffffff;
+}
