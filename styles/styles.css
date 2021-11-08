@@ -51,7 +51,6 @@ body {
 	line-height: 24px;
 	color: #595959;
 	width: 400px;
-	/* margin-bottom: 50px; */
 }
 
 /* Projects styles */
@@ -70,6 +69,7 @@ body {
 .project-list {
 	padding: 0;
 	margin-left: 17px;
+	margin-bottom: 50px;
 }
 .projects-item {
 	font-style: normal;
@@ -78,21 +78,13 @@ body {
 	line-height: 24px;
 	color: #000000;
 }
-.project-link:hover {
-	color: blue;
-	/* font-weight: bold; */
-	/* transition: 1s; */
-}
-.project,
-.project-link {
+.project-description {
 	font-style: normal;
 	font-weight: normal;
 	font-size: 14px;
 	line-height: 24px;
 	color: #595959;
-}
-.project-link {
-	margin-left: 10px;
+	margin-left: 100px;
 }
 .brackets {
 	font-style: normal;
@@ -101,11 +93,55 @@ body {
 	line-height: 24px;
 	color: #000000;
 }
+.project-link-1:hover,
+.project-link-2:hover,
+.project-link-3:hover {
+	color: blue;
+	transition: 0.3s;
+	font-size: 15px;
+	font-weight: bold;
+}
+.project-link-1 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+	color: #595959;
+	background: white;
+	position: absolute;
+	left: 530px;
+	bottom: 947px;
+	margin: auto;
+}
+.project-link-2 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+	color: #595959;
+	background: white;
+	position: absolute;
+	left: 530px;
+	bottom: 923px;
+	margin: auto;
+}
+.project-link-3 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+	color: #595959;
+	background: white;
+	position: absolute;
+	left: 530px;
+	bottom: 899px;
+	margin: auto;
+}
 
 /* Work experience style */
 .work-experience {
 	margin-left: 90px;
-	margin-top: 50px;
+	/* margin-top: 50px; */
 }
 .work-experience-title {
 	font-style: normal;
@@ -233,7 +269,6 @@ body {
 .phone {
 	width: 18px;
 	color: white;
-	/* opacity: 0; */
 }
 .contact-mail {
 	font-style: normal;
