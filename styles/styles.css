@@ -230,6 +230,10 @@ body {
 	color: #ffffff;
 	padding-left: 4px;
 }
+.phone {
+	width: 18px;
+	/* opacity: 0; */
+}
 .contact-mail {
 	font-style: normal;
 	font-weight: bold;
