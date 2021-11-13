@@ -16,23 +16,23 @@
 <body>
 
     <!--Main-->
-    <div class="main">
+    <main class="main">
         
         <!--Main content-->
         <div class="main-content">
+            <h1 class="position">Front-End Developer</h1>
             <!--About-->
-            <div class="about">
-                <h2 class="position">Front-End Developer</h2>
-                <h1 class="name">Andriy Ivanenko</h1>
+            <section class="about">
+                <h2 class="name">Andriy Ivanenko</h2>
                 <p class="description">
                     Lorem ipsum dolor sit amet-, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
                 </p>
-            </div>
+            </section>
 
             <!--Projects-->
-            <div class="projects">  
-                <h3 class="projects-title">Projects</h3>
+            <section class="projects">  
+                <h2 class="projects-title">Projects</h2>
                 <ol class="project-list">
                     <li class="projects-item">
                         <a href="https://hellenglish.goit.global/" target="_blank" title="Project-1" class="project-link-1">
@@ -53,14 +53,14 @@
                         <span class="brackets">[</span> React.js, Node.js <span class="brackets">]</span></span>  
                     </li>
                 </ol>
-            </div>
+            </section>
 
             <!--Work experience-->
-            <div class="work-experience">
-                <h3 class="work-experience-title">Work Experience</h3>
+            <section class="work-experience">
+                <h2 class="work-experience-title">Work Experience</h2>
                 <!--Company 1-->
                 <div>
-                    <h4 class="work">Front-End Developer <span class="company">Freelance</span></h4>
+                    <h3 class="work">Front-End Developer <span class="company">Freelance</span></h3>
                     <p class="dates">September 2019 - up to now <span class="line">|</span> Country</p>
                     <ul class="company-experience">
                         <li class="experience-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -72,7 +72,7 @@
                 </div>
                 <!--Company 2-->
                 <div>
-                    <h4 class="work">Manager <span class="company">Roga & Kopyta New</span></h4>
+                    <h3 class="work">Manager <span class="company">Roga & Kopyta New</span></h3>
                     <p class="dates">March 2015 - October 2018 <span class="line">|</span> Country</p>
                     <ul class="company-experience">
                         <li class="experience-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua.
@@ -83,7 +83,7 @@
                 </div>
                 <!--Company 3-->
                 <div>
-                    <h4 class="work">Manager <span class="company">Roga & Kopyta LLC</span></h4>
+                    <h3 class="work">Manager <span class="company">Roga & Kopyta LLC</span></h3>
                     <p class="dates">June 2014 - February 2015 <span class="line">|</span> Country</p>
                     <ul class="company-experience">
                         <li class="experience-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
@@ -91,34 +91,38 @@
                         <li class="experience-text">Risus commodo viverra maecenas.</li>
                     </ul>
                 </div>
-            </div>
+            </section>
 
             <!--Education-->
-            <div class="education">
-                <h3 class="education-title">Education</h3>
-                <h4 class="height-shcool">National University of Radioelectronics</h4>
-                <h5 class="speciality">Management</h5>
-                <p class="dates">September 2009 - June 2014 <span class="line">|</span> Country</p>
-            </div>   
+            <section class="education">
+                <h2 class="education-title">Education</h2>
+                <span class="height-shcool">Lviv National University</span>
+                <span class="speciality">Radio Physics</span>
+                <p class="dates">September 1991 - June 1996 <span class="line">|</span> Country</p>
+            </section>      
         </div>
                
         <!--Sidebar-->
         <aside class="sidebar">
-            <img src="img/IMG_8037.JPG" alt="user photo" width="370px" class="photo">
+            <img src="img/IMG_8037.JPG" alt="user photo" width="370">
             <!--Contacts-->
-            <div class="contacts">
-                <h3 class="sidebar-title">Contacts</h3>
-                <p>
-                    <!-- <img src="img/phone_invert.png" alt="phone" class="phone"> -->
-                    <span class="contact-phone">&phone; :</span>
-                    <a href="tel:+380676706067" class="contact-link">+380676706067</a><br>
-                    <span class="contact-mail">&#128386 :</span>
-                    <a href="mailto:chornyiav@gmail.com" class="contact-link">Andriy.Ivanenko@gmail.com</a>
-                </p>
-            </div>
+            <section class="contacts">
+                <h2 class="sidebar-title">Contacts</h2>
+                <ul class="contacts-list">
+                    <li>
+                        <span class="contact-phone">&phone; :</span>
+                        <a href="tel:+380676706067" class="contact-link">+380676706067</a>
+                    </li>
+                    <li>
+                        <span class="contact-mail">&#128386; :</span>
+                        <a href="mailto:chornyiav@gmail.com" class="contact-link">Andriy.Ivanenko@gmail.com</a>
+                    </li>
+                </ul>
+               
+            </section>
             <!--Tech skills-->
-            <div class="tech-skills">
-                <h3 class="sidebar-title">Tech skills</h3>
+            <section class="tech-skills">
+                <h2 class="sidebar-title">Tech skills</h2>
                 <ul class="skill-list">
                     <li class="list-item"> <span class="skill-name">HTML5</span></li>
                     <li class="list-item"> <span class="skill-name">CSS3</span></li>
@@ -128,20 +132,20 @@
                     <li class="list-item"> <span class="skill-name">React.js</span></li>
                     <li class="list-item"> <span class="skill-name">Node.js</span></li>
                 </ul>
-            </div>
+            </section>
             <!--Soft Skills-->
-            <div class="soft-skills">
-                <h3 class="sidebar-title">Soft Skills</h3>
+            <section class="soft-skills">
+                <h2 class="sidebar-title">Soft Skills</h2>
                 <ul class="skill-list">
                     <li class="list-item"> <span class="skill-name">Scrum</span></li>
                     <li class="list-item"> <span class="skill-name">Agile</span></li>
                     <li class="list-item"> <span class="skill-name">GTD</span></li>
                     <li class="list-item"> <span class="skill-name">Teamwork</span></li>
                 </ul>
-            </div>
+            </section>
         </aside>
 
-    </div> 
+    </main> 
 
 </body>
 </html>
