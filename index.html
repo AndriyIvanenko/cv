@@ -1,151 +1,248 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="styles/styles.css" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/styles.css">
+		<title>CV</title>
+	</head>
 
-    <title>CV</title>
-</head>
+	<body>
+		<!--Main-->
+		<main class="main">
+			<!--Main content-->
+			<div class="main-content">
+				<!--About-->
+				<section class="about">
+					<h1 class="name">Andriy Ivanenko</h1>
+					<h2 class="position">Junior Front-End Developer</h2>
+					<p class="description">
+						I am looking for a Front-end developer position. I have sound knowledge of HTML, CSS, JavaScript, and React.
+						Also, I have hands-on experience in following Agile /Scrum methodology when working in a team. I am a fast
+						learner, responsible, and ready for challenging tasks.
+					</p>
+				</section>
 
-<body>
+				<!--Projects-->
+				<section class="projects">
+					<h2 class="projects-title">Projects Experience</h2>
+					<ol class="project-list">
+						<li class="projects-item">
+							<a
+								href="https://github.com/AndriyIvanenko/goit-markup-hw-08/"
+								target="_blank"
+								title="Project-1"
+								class="project-link-1"
+							>
+								Web Studio
+							</a>
+							<span class="project-description">
+								<span class="brackets">[</span>
+								HTML, CSS3, SASS
+								<span class="brackets">]</span>
+								<p style="margin-top: 0; width: 550px">
+									Simlpe website with adaptive layout design. Site contains description of advantages, team profiles,
+									clients on main page and portfolio page.
+								</p>
+							</span>
+						</li>
+						<li class="projects-item">
+							<a
+								href="https://github.com/AndriyIvanenko/barbershop/"
+								target="_blank"
+								title="Project-2"
+								class="project-link-2"
+							>
+								BarberShop
+							</a>
+							<span class="project-description">
+								<span class="brackets">[</span>
+								HTML, CSS3, SASS
+								<span class="brackets">]</span>
+								<p style="margin-top: 0; width: 550px">
+									Simlpe landing page with adaptive layout design. Page contains main info about barbershop, team
+									profiles and form for online booking
+								</p>
+							</span>
+						</li>
+						<li class="projects-item">
+							<a href="https://kidslike.goit.global/" target="_blank" title="Project-3" class="project-link-3">
+								Ice Cream
+							</a>
+							<span class="project-description">
+								<span class="brackets">[</span>
+								HTML, CSS3, SASS, JS
+								<span class="brackets">]</span>
+								<p style="margin-top: 0; width: 550px">
+									Landing page created for Ice Cream shops. Role - developer. Completed - header, feedback section,
+									adaptive masonry layout gallery.
+								</p>
+							</span>
+						</li>
+						<li class="projects-item">
+							<a
+								href="https://github.com/Aleksandor2138/filmLibrary/"
+								target="_blank"
+								title="Project-3"
+								class="project-link-3"
+							>
+								Filmoteka
+							</a>
+							<span class="project-description">
+								<span class="brackets">[</span>
+								HTML, CSS3, SASS, JS
+								<span class="brackets">]</span>
+								<p style="margin-top: 0; width: 550px">
+									A web application for finding detailed information about movies and with the ability to watch
+									trailers. Creating an account with the ability to store your own library is also supported. Role -
+									developer. Completed - modal window with detailed infofmation about movie, adaptive youtube player
+									integration
+								</p>
+							</span>
+						</li>
+					</ol>
+				</section>
 
-    <!--Main-->
-    <main class="main">
-        
-        <!--Main content-->
-        <div class="main-content">
-            <h1 class="position">Front-End Developer</h1>
-            <!--About-->
-            <section class="about">
-                <h2 class="name">Andriy Ivanenko</h2>
-                <p class="description">
-                    Lorem ipsum dolor sit amet-, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
-                </p>
-            </section>
+				<!--Work experience-->
+				<section class="work-experience">
+					<h2 class="work-experience-title">Work Experience</h2>
+					<!--Company 1-->
+					<div>
+						<h3 class="work">
+							Senior engineer
+							<span class="company">Kyivstar</span>
+						</h3>
+						<p class="dates">
+							September 2010 - up to now
+							<span class="line">|</span>
+							Ukraine
+						</p>
+						<ul class="company-experience">
+							<li class="experience-text">Construction new datacentre (NFVI), core network migration to.</li>
+							<li class="experience-text">New technologies (3G, LTE) implementation.</li>
+							<li class="experience-text">New services implementation.</li>
+							<li class="experience-text">Mobile core network equipment O&M.</li>
+						</ul>
+					</div>
+					<!--Company 2-->
+					<div>
+						<h3 class="work">
+							Telecom engineer
+							<span class="company">Kyivstar</span>
+						</h3>
+						<p class="dates">
+							October 2000 - September 2010
+							<span class="line">|</span>
+							Ukraine
+						</p>
+						<ul class="company-experience">
+							<li class="experience-text">Radio network O&M.</li>
+							<li class="experience-text">New services implementation.</li>
+							<li class="experience-text">Mobile core network equipment O&M.</li>
+						</ul>
+					</div>
+					<!--Company 3-->
+					<div>
+						<h3 class="work">
+							Telecom engineer
+							<span class="company">Ukrtelecom</span>
+						</h3>
+						<p class="dates">
+							August 1996 - October 2000
+							<span class="line">|</span>
+							Ukraine
+						</p>
+						<ul class="company-experience">
+							<li class="experience-text">New digital telephone exchange implementation.</li>
+							<li class="experience-text">Digital telephone exchange network O&M.</li>
+						</ul>
+					</div>
+				</section>
 
-            <!--Projects-->
-            <section class="projects">  
-                <h2 class="projects-title">Projects</h2>
-                <ol class="project-list">
-                    <li class="projects-item">
-                        <a href="https://hellenglish.goit.global/" target="_blank" title="Project-1" class="project-link-1">
-                            https://hellenglish.goit.global/</a>
-                        <span class="project-description">..........................................................................
-                        <span class="brackets">[</span> HTML5, CSS3 <span class="brackets">]</span></span>
-                    </li>
-                    <li class="projects-item">
-                        <a href="https://cryptohub.goit.global/" target="_blank" title="Project-2" class="project-link-2">
-                            https://cryptohub.goit.global/</a>
-                        <span class="project-description">..........................................................................
-                        <span class="brackets">[</span> JavaScript <span class="brackets">]</span></span>                       
-                    </li>
-                    <li class="projects-item">
-                        <a href="https://kidslike.goit.global/" target="_blank" title="Project-3" class="project-link-3">
-                            https://kidslike.goit.global/</a>
-                        <span class="project-description">..........................................................................
-                        <span class="brackets">[</span> React.js, Node.js <span class="brackets">]</span></span>  
-                    </li>
-                </ol>
-            </section>
+				<!--Education-->
+				<section class="education">
+					<h2 class="education-title">Education</h2>
+					<span class="height-shcool">GO IT Academy</span>
+					<span class="speciality">Full stack developer</span>
+					<p style="margin-bottom: 25px; margin-top: 5px" class="dates">
+						December 2021 - up to now
+						<span class="line">|</span>
+						Ukraine
+					</p>
+					<span class="height-shcool">Lviv National University</span>
+					<span class="speciality">Radio Physics</span>
+					<p style="margin-top: 5px" class="dates">
+						September 1991 - June 1996
+						<span class="line">|</span>
+						Ukraine
+					</p>
+				</section>
+			</div>
 
-            <!--Work experience-->
-            <section class="work-experience">
-                <h2 class="work-experience-title">Work Experience</h2>
-                <!--Company 1-->
-                <div>
-                    <h3 class="work">Front-End Developer <span class="company">Freelance</span></h3>
-                    <p class="dates">September 2019 - up to now <span class="line">|</span> Country</p>
-                    <ul class="company-experience">
-                        <li class="experience-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua.</li>
-                        <li class="experience-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                        <li class="experience-text">Risus commodo viverra maecenas.</li>
-                        <li class="experience-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</li>
-                    </ul>
-                </div>
-                <!--Company 2-->
-                <div>
-                    <h3 class="work">Manager <span class="company">Roga & Kopyta New</span></h3>
-                    <p class="dates">March 2015 - October 2018 <span class="line">|</span> Country</p>
-                    <ul class="company-experience">
-                        <li class="experience-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua.
-                        </li>
-                        <li class="experience-text">Quis ipsum suspendisse ultrices gravida.</li>
-                        <li class="experience-text">Risus commodo viverra maecenas.</li>
-                    </ul>
-                </div>
-                <!--Company 3-->
-                <div>
-                    <h3 class="work">Manager <span class="company">Roga & Kopyta LLC</span></h3>
-                    <p class="dates">June 2014 - February 2015 <span class="line">|</span> Country</p>
-                    <ul class="company-experience">
-                        <li class="experience-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                        <li class="experience-text">Quis ipsum suspendisse ultrices gravida.</li>
-                        <li class="experience-text">Risus commodo viverra maecenas.</li>
-                    </ul>
-                </div>
-            </section>
-
-            <!--Education-->
-            <section class="education">
-                <h2 class="education-title">Education</h2>
-                <span class="height-shcool">Lviv National University</span>
-                <span class="speciality">Radio Physics</span>
-                <p class="dates">September 1991 - June 1996 <span class="line">|</span> Country</p>
-            </section>      
-        </div>
-               
-        <!--Sidebar-->
-        <aside class="sidebar">
-            <img src=".img/IMG_8037.JPG" alt="user photo" width="370">
-            <!--Contacts-->
-            <section class="contacts">
-                <h2 class="sidebar-title">Contacts</h2>
-                <ul class="contacts-list">
-                    <li>
-                        <span class="contact-phone">&phone; :</span>
-                        <a href="tel:+380676706067" class="contact-link">+380676706067</a>
-                    </li>
-                    <li>
-                        <span class="contact-mail">&#128386; :</span>
-                        <a href="mailto:chornyiav@gmail.com" class="contact-link">Andriy.Ivanenko@gmail.com</a>
-                    </li>
-                </ul>
-               
-            </section>
-            <!--Tech skills-->
-            <section class="tech-skills">
-                <h2 class="sidebar-title">Tech skills</h2>
-                <ul class="skill-list">
-                    <li class="list-item"> <span class="skill-name">HTML5</span></li>
-                    <li class="list-item"> <span class="skill-name">CSS3</span></li>
-                    <li class="list-item"> <span class="skill-name">GIT</span></li>
-                    <li class="list-item"> <span class="skill-name">WebPack</span></li>
-                    <li class="list-item"> <span class="skill-name">JavaScript</span></li>
-                    <li class="list-item"> <span class="skill-name">React.js</span></li>
-                    <li class="list-item"> <span class="skill-name">Node.js</span></li>
-                </ul>
-            </section>
-            <!--Soft Skills-->
-            <section class="soft-skills">
-                <h2 class="sidebar-title">Soft Skills</h2>
-                <ul class="skill-list">
-                    <li class="list-item"> <span class="skill-name">Scrum</span></li>
-                    <li class="list-item"> <span class="skill-name">Agile</span></li>
-                    <li class="list-item"> <span class="skill-name">GTD</span></li>
-                    <li class="list-item"> <span class="skill-name">Teamwork</span></li>
-                </ul>
-            </section>
-        </aside>
-
-    </main> 
-
-</body>
+			<!--Sidebar-->
+			<aside class="sidebar">
+				<img src="./img/IMG_8037.JPG" alt="user photo" width="370" />
+				<!--Contacts-->
+				<section class="contacts">
+					<h2 class="sidebar-title">Contacts</h2>
+					<ul class="contacts-list">
+						<li>
+							<span class="contact-phone">&phone; :</span>
+							<a href="tel:+380676706067" class="contact-link">+380676706067</a>
+						</li>
+						<li>
+							<span class="contact-mail">&#128386; :</span>
+							<a href="mailto:chornyiav@gmail.com" class="contact-link">Andriy.Ivanenko@gmail.com</a>
+						</li>
+						<li>
+							<img style="width: 20px; height: 20px" src="./img/pngegg.png" alt="" />
+							<span class="contact-mail">:</span>
+							<a href="https://github.com/AndriyIvanenko/" class="contact-link">GitHub</a>
+						</li>
+						<li>
+							<img style="width: 20px; height: 20px" src="./img/Daco_368194.png" alt="" />
+							<span class="contact-mail">:</span>
+							<a href="https://www.linkedin.com/in/andriy-ivanenko-a1a3444/" class="contact-link">LinkedIn</a>
+						</li>
+					</ul>
+				</section>
+				<!--Tech skills-->
+				<section class="tech-skills">
+					<h2 class="sidebar-title">Tech skills</h2>
+					<ul class="skill-list">
+						<li class="list-item"><span class="skill-name">HTML5</span></li>
+						<li class="list-item"><span class="skill-name">CSS3</span></li>
+						<li class="list-item"><span class="skill-name">GIT</span></li>
+						<li class="list-item"><span class="skill-name">WebPack</span></li>
+						<li class="list-item"><span class="skill-name">JavaScript</span></li>
+						<li class="list-item"><span class="skill-name">React.js</span></li>
+						<li class="list-item"><span class="skill-name">Node.js</span></li>
+					</ul>
+				</section>
+				<!--Soft Skills-->
+				<section class="soft-skills">
+					<h2 class="sidebar-title">Soft Skills</h2>
+					<ul class="skill-list">
+						<li class="list-item"><span class="skill-name">Scrum</span></li>
+						<li class="list-item"><span class="skill-name">Agile</span></li>
+						<li class="list-item"><span class="skill-name">GTD</span></li>
+						<li class="list-item"><span class="skill-name">Teamwork</span></li>
+					</ul>
+				</section>
+				<!-- Languages -->
+				<section class="soft-skills">
+					<h2 class="sidebar-title">Languages</h2>
+					<ul class="skill-list">
+						<li class="list-item"><span class="skill-name">Ukrainian - native</span></li>
+						<li class="list-item"><span class="skill-name">English - intermediate</span></li>
+					</ul>
+				</section>
+			</aside>
+		</main>
+	</body>
 </html>
