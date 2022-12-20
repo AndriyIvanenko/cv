@@ -3,6 +3,9 @@ body {
 	background: #f5f7fa;
 	padding: 0;
 }
+/* ul, ol, h1, h2, p, span {
+	margin: 0;
+} */
 
 /* Main styles */
 .main {
@@ -225,7 +228,7 @@ body {
 	font-size: 14px;
 	line-height: 17px;
 	color: #000000;
-	margin-bottom: auto;
+	margin-bottom: auto;0px
 }
 .dates {
 	font-style: normal;
@@ -246,7 +249,7 @@ body {
 /* Sidebar styles */
 .sidebar {
 	background: #1e2939;
-	padding-top: 40px;
+	/* padding-top: 40px; */
 	width: 370px;
 }
 .sidebar-title {
@@ -255,12 +258,13 @@ body {
 	font-weight: bold;
 	font-size: 22px;
 	line-height: 27px;
+	margin-bottom: 10px;
 }
 .contacts,
 .tech-skills,
 .soft-skills {
 	margin-left: 40px;
-	margin-top: 50px;
+	margin-top: 30px;
 }
 .contacts-list {
 	list-style-type: none;
