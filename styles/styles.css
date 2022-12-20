@@ -3,6 +3,12 @@ body {
 	background: #f5f7fa;
 	padding: 0;
 }
+h1,
+h2,
+p,
+ol {
+	margin: 0;
+}
 /* Main styles */
 .main {
 	display: flex;
@@ -46,7 +52,6 @@ body {
 	line-height: 55px;
 	color: #000000;
 	margin-bottom: 15px;
-	margin-top: 5px;
 }
 .description {
 	font-style: normal;
@@ -68,13 +73,11 @@ body {
 	font-size: 22px;
 	line-height: 27px;
 	color: #000000;
-	margin-top: 10px;
 	margin-bottom: 10px;
 }
 .project-list {
 	padding: 0;
 	margin-left: 17px;
-	margin-bottom: 20px;
 }
 .projects-item {
 	font-style: normal;
@@ -146,6 +149,7 @@ body {
 /* Work experience style */
 .work-experience {
 	margin-left: 40px;
+	margin-top: 20px;
 }
 .work-experience-title {
 	font-style: normal;
@@ -153,8 +157,7 @@ body {
 	font-size: 22px;
 	line-height: 27px;
 	color: #000000;
-	margin-bottom: 15px;
-	margin-top: 15px;
+	margin-bottom: 10px;
 }
 .work {
 	font-style: normal;
