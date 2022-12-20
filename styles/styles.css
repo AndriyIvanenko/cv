@@ -1,6 +1,6 @@
 body {
 	font-family: "Montserrat", sans-serif;
-	/* background: #f5f7fa; */
+	background: #f5f7fa;
 	padding: 0;
 }
 
@@ -9,21 +9,21 @@ body {
 	display: flex;
 	flex-direction: row-reverse;
 	justify-content: center;
-	/* width: 1170px;
-	height: 1400px; */
-	width: 100%;
-	height: 100%;
-	/* margin: auto; */
-	/* padding: 0px 40px; */
-	/* transform: scale(0.9); */
-	padding-top: 40px;
+	width: 1170px;
+	height: 1400px;
+	/* width: 100%;
+	height: 100%; */
+	margin: auto;
+	padding: 0px 40px;
+	transform: scale(0.9);
+	/* padding-top: 40px; */
 }
 
 /* Main-content styles */
 .main-content {
 	background: white;
 	width: 800px;
-	/* box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1); */
+	box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 .position {
 	font-style: normal;
@@ -38,7 +38,7 @@ body {
 
 /* About styles */
 .about {
-	/* margin-top: 30px; */
+	margin-top: 30px;
 	margin-left: 40px;
 }
 .name {
